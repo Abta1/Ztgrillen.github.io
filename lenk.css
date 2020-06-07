@@ -1,0 +1,30 @@
+body{
+	background-color: blue;
+}
+
+
+
+
+h1{
+	font-size: 45px;
+	font-family: sans-serif;
+	text-rendering: optimizeLegibility;
+	text-align: center;
+	color: red;
+
+}
+
+img{
+	margin-left: 120px;
+	height: 90px;
+	width: 150px;
+	transition: all 1s;
+}
+
+img:hover{
+	transform: scale(2.1);
+}
+
+p{
+	margin-left: 120px;
+}

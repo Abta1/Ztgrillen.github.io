@@ -1,0 +1,128 @@
+html,
+body{
+
+	background-image: url(https://ak.picdn.net/shutterstock/videos/1021994119/thumb/1.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+}
+
+p{
+	font-family: sans-serif;
+	font-size: 35px;
+	font-weight: bold;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+
+    background-color: white;
+    color: rgb(83, 78, 78);
+    font-family: 'Lato', 'Arial', sans-serif ;
+    font-weight: 300px;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+
+    
+
+}
+
+.row{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+header{
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)) , url(trader.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.hero-text-box{
+    position: absolute;
+    width: 1140px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+h1{
+    margin: 0;
+    color: #fff;
+    font-size: 240%;
+    text-transform: uppercase;
+    font-weight: 300;
+    letter-spacing: 1px;
+    word-spacing: 5px;
+    margin-bottom: 25px;
+}
+.btn:link,
+.btn:visited{
+    display: inline-block;
+    padding: 10px 30px;
+    font-weight: 300;
+    text-decoration: none;
+    border-radius: 200px;
+    color: #fff;
+
+}
+.btn-full:link,
+.btn-full:visited{
+    background-color: #6ab04c;
+    border: 1px solid #6ab04c;
+}
+.btn-ghost:link,
+.btn-ghost:visited{
+    border: 1px solid #6ab04c;
+    color: #6ab04c;
+}
+
+.btn:hover,
+.btn:active{
+    background-color:#467532 ;
+}
+
+.btn-full:hover,
+.btn-full:active{
+
+    border: 1px solid #6ab04c;
+}
+.btn-ghost:hover,
+.btn-ghost:active{
+    border: 1px solid #233919;
+    color: #ffffff;
+}
+
+.main-nav{
+    float: right;
+    list-style: none;
+    margin-top: 60px;
+
+}
+
+.main-nav li{
+    display: inline-block;
+    margin-left: 40px; 
+   
+}
+
+.main-nav li a:link,
+.main-nav li a:visited{
+    color: #ffffff;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 90%;
+    text-rendering: optimizeLegibility; 
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.2s
+}
+.main-nav li a:hover,
+.main-nav li a:active{
+    border-bottom: 2px solid #6ab04c;
+}
